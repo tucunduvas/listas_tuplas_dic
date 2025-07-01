@@ -27,7 +27,7 @@ while True:
                 break
             if remocao in lista:
                 lista.remove(remocao)
-                print(f"O elemento {i} foi removido!")
+                print(f"O elemento {remocao} foi removido!")
             else:
                 print("elemento nao encontrado")
             # for i in lista:

@@ -19,6 +19,23 @@ while True:
     tupla = ( nome, nota)
     lista.append(tupla)
 
-for i,j in lista:
-    print(i)
-    
+listainversa = lista[::-1]
+print(listainversa)
+
+# [('ca', 5.0), ('vi', 3.0), ('ma', 9.0)]
+
+# # 17. Como reverter uma tupla
+# # Usando a técnica de fatiamento, podemos reverter a tupla. Uma nova cópia da tupla é criada durante este processo.
+
+# old_tuple = ('M', 'A', 'K', 'E', 'U', 'S', 'E', 'O', 'F')
+# print("Old tuple:")
+# print(old_tuple)
+# # Reversing tuple using slicing
+# new_tuple = old_tuple[::-1]
+# print("New tuple:")
+# print(new_tuple)
+# # prints
+# # Old tuple:
+# ('M', 'A', 'K', 'E', 'U', 'S', 'E', 'O', 'F')
+# # New tuple:
+# ('F', 'O', 'E', 'S', 'U', 'E', 'K', 'A', 'M')

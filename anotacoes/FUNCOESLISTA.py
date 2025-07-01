@@ -1,6 +1,12 @@
 
 carros = ["hb20", "fusca", "toyota"]
 
+lista = ['maçã', 'banana', 'laranja']
+lista = [item.replace('banana', 'uva') for item in lista]
+print(lista)
+# Saída: ['maçã', 'uva', 'laranja']
+
+
 print(carros[0])
 print(carros[-1])
 
